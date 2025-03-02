@@ -1,13 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/styles.CSS">
   <link rel="stylesheet" href="css/variables.css">
-  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
@@ -25,46 +26,63 @@
   </nav>
 
   <main>
-    <article>
-      <div>
-        <img src="assets/img/kea_restaurant.jpg" alt="KEA-Restaurant" />
-      </div>
-      <div>
-        <p>
-          We provide a wide variety of fine dishes and beverages at moderate
-          prices. Located in one of the trendiest areas of Copenhagen,
-          Restaurant KEA has been at the forefront of Denmark's culinary life
-          for the past decade. Let us take you on a journey of taste that you
-          will never forget. You will not only not regret it, but you will feel
-          an urge to spread the good news around to your friends and family. So
-          amazing is the food experience at Restaurant KEA. We look forward to
-          serving you.
-        </p>
-        <ul>
-          <li>High quality food</li>
-          <li>Excellent location</li>
-          <li>Attentive personnel</li>
-          <li>Wonderful music</li>
-          <li>Amazing wines</li>
-          <li>Reasonable prices</li>
-        </ul>
-      </div>
-    </article>
-    <aside>
-      <figure>
-        <blockquote>
-          <p>
-            Dining at Restaurant KEA has truly been one of the greatest
-            experiences of my life. Words cannot express the pleasure that I
-            felt while tasting these amazing flavours. It makes all other
-            restaurants pale in comparison, in Denmark and elsewhere.
-          </p>
-        </blockquote>
-        <figcaption> -Mette J. Christensen, <cite>The Food Connoisseur</cite></figcaption>
-    </aside>
+    <div id="wrapper">
+
+
+      <section>
+        <img src="assets/img/map.jpg" alt="kea Restaurant location">
+        <address>
+          <div>
+            <p>Guldbergsgade 29N</p>
+            <p>2200 Copenhagen</p>
+          </div>
+          <div>
+            <p>Phone no.: <strong> 20 82 53 70</strong></p>
+          </div>
+          <div>
+            <p>E-mail: <strong>info@restaurantkea.dk</strong></p>
+          </div>
+        </address>
+      </section>
+
+      <form>
+        <fieldset>
+          <legend>Contact From</legend>
+          <div>
+            <label for="txtName">Full name</label>
+            <input type="text" id="txtName" required/>
+          </div>
+          <div>
+            <label for="txtPhone">Phone no.</label>
+            <input type="text" id="txtPhone" required/>
+          </div>
+          <div>
+            <label for="txtEmail">E-mail</label>
+            <input type="email" id="txtEmail" required/>
+          </div>
+          <div id="nbrPeople">
+            <label for="nbrPerson">Persons</label>
+            <input type="number" id="nbrPerson" required/>
+
+          </div>
+          <div id="date-and-time">
+            <label for="dateTime">Date and time</label>
+            <input type="datetime-local" id="dateTime" required/>
+          </div>
+          <div id="txtComments">
+            <label for="txtComments">Further information</label>
+            <input type="text" id="txtComments" />
+          </div>
+          <div>
+            <button type="submit">Send</button>
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
   </main>
   <footer>
-    <p>© 2021-2025 KEA Development</p>
+    <p>&copy; 2021-2025 KEA Development</p>
   </footer>
 </body>
 

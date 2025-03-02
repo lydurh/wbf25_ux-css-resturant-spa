@@ -33,14 +33,15 @@
       p {
         margin-bottom: 1rem;
       }
-
-      button {
+      
+      .price {
         font-size: 1.2rem;
         font-weight: 700;
         color: var(--colorBgCard);
         border: 0.4rem solid var(--colorSecondary);
         border-radius: 0.5rem;
         padding: 0.3rem 0.5rem;
+        width: 60%;
         background-color: var(--colorMain);
       }
     }
