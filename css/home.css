@@ -1,0 +1,57 @@
+@media (min-width: 600px) {
+  img {
+    float: right;
+    width: auto;
+  }
+
+  main {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+
+main {
+
+
+  article {
+    margin: 1rem 1rem;
+
+
+    div {
+      margin: 1rem 0;
+
+      img {
+        float: right;
+      }
+
+      p {
+        max-width: 80ch;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0.5rem 1rem;
+
+        li {
+          color: var(--colorMain);
+          padding: 0.2rem 0;
+        }
+      }
+    }
+  }
+}
+
+
+figure {
+  background-color: var(--colorGrey);
+  color: var(--colorBgMain);
+  border-radius: 0.5rem;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+
+  figcaption {
+    padding: 0.5rem 0;
+    text-indent: 1rem;
+  }
+}

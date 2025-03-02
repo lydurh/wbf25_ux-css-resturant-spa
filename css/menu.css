@@ -1,0 +1,100 @@
+#wrapper {
+
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    background-color: var(--colorBgCard);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+
+
+    div {
+      margin-bottom: 1rem;
+
+      h2 {
+        text-align: center;
+        align-content: center;
+        display: block;
+        background-color: var(--colorMain);
+        color: var(--colorBgMain);
+        font-family: var(--fontTitle);
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+
+      }
+
+
+      p {
+        margin-bottom: 1rem;
+      }
+
+      button {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--colorBgCard);
+        border: 0.4rem solid var(--colorSecondary);
+        border-radius: 0.5rem;
+        padding: 0.3rem 0.5rem;
+        background-color: var(--colorMain);
+      }
+    }
+
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #wrapper {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+
+
+    .card {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+
+
+      .img-div {
+        order: 2;
+      }
+
+      div {
+        margin: 0 1rem;
+
+        h2 {
+          align-content: center;
+          text-align: left;
+          padding-left: 1rem;
+        }
+
+        img {
+          width: auto;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+  #wrapper {
+
+
+    .card {
+
+      width: 45%;
+    }
+  }
+
+}

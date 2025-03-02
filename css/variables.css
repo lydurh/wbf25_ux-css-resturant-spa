@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --colorMainFont: black;
+  --colorMain: #ea5047;
+  --colorSecondary: #27354a;
+  --colorBgMain: #ffffff;
+  --colorBgCard: #f1edaa;
+  --colorLinkHover: #ffa500;
+  --colorGrey: #808080;
+
+  --fontMain: roboto, Arial, sans serif;
+  --fontTitle: Atma, serif;
+}
